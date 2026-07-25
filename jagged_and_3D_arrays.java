@@ -1,6 +1,7 @@
-// jagged array can be explained as a multidimensional array but one of its dimensions is not fixed.
 public class jagged_and_3D_arrays{
     public static void main(String args[]){
+        // jagged array can be explained as a multidimensional array but one of its dimensions is not fixed.
+        // example of jagged array:
         int arr [][] = new int [3][];
         arr[0] = new int[5];
         arr[1] = new int[4];
@@ -19,6 +20,11 @@ public class jagged_and_3D_arrays{
             }
             System.out.println();
         }
+
+
+
+        // 3D array example:
+        int arrr1[][][] = new int[3][4][5];
 
     }
 }
