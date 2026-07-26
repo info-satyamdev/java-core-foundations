@@ -1,5 +1,8 @@
 public class String_class {
     public static void main(String args[]){
+        
+        
+        // creating a string using new keyword or i can say as an object of string class
         String nmr = new String("Developers");
         System.out.println(nmr);
         System.out.println(nmr.length());
