@@ -1,6 +1,5 @@
 public class Mutable_and_Immutable_strings {
     public static void main(String args[]){
-
         // immutable string: creates garbage memore for old string as now in example the variable a is gonna contain the new string developers are awesome and the old string developers is gonna be garbage collected
         String a = "developers";
         a =a +" Are awesome";

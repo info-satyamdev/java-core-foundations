@@ -10,7 +10,6 @@ class Mobile{
         System.out.println("Price " + obj.price + " - Name : " + name + " - Brand : " + obj.brand);
      }
 }
-
 public class static_methods {
    @SuppressWarnings("static-access")
    public static void main(String args[]){
