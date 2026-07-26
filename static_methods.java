@@ -4,13 +4,14 @@ class Mobile{
    //   static variable
      static String name;
      String brand;
-
-     public void show (){
-        System.out.println("Price " + price + " - Name : " + name + " - Brand : " + brand);
+    // only static variables can be called inside static method
+    // static method can call instance varibale only when a object is created for the instance variable
+     public static void show ( Mobile obj){
+        System.out.println("Price " + obj.price + " - Name : " + name + " - Brand : " + obj.brand);
      }
 }
 
-public class static_variable {
+public class static_methods {
    @SuppressWarnings("static-access")
    public static void main(String args[]){
       
@@ -26,18 +27,19 @@ public class static_variable {
       m3.name = "smarthphone";
       m3.price = 45000;
       m3.brand = "samsung";
-      m3.show();
-      m2.show();
-      m1.show();
+      m3.show(m1);
+      m2.show(m2);
+      m1.show(m3);
       // static variables are going to change there values if only one of the objects variable is changed 
       // m3.name = "dhinchak dhinchak"; -->also right but bad practice
       Mobile.name ="dhinchak dhinchAK" ;
 
-      m3.show();
-      m2.show();
-      m1.show();
+      m3.show(m1);
+      m2.show(m2);
+      m1.show(m3);
       
 
    }
     
 }
+

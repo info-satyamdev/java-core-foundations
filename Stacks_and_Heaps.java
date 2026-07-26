@@ -10,7 +10,7 @@ class calci{
 
 public class Stacks_and_Heaps {
     public static void main(String args[]){
-        int data = 11;
+        // int data = 11;
         calci obj = new calci();
         calci obj1 = new calci();
         int r =obj.add(452, 254);

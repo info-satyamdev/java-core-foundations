@@ -24,6 +24,7 @@ public class jagged_and_3D_arrays{
 
 
         // 3D array example:
+        @SuppressWarnings("unused")
         int arrr1[][][] = new int[3][4][5];
 
     }
