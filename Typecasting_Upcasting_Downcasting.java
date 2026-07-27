@@ -3,13 +3,11 @@ class Abb {
         System.out.println("Statement A");
     }
 }
-
 class Bbb extends Abb {
     public void show2() {
         System.out.println("Statement 2");
     }
 }
-
 public class Typecasting_Upcasting_Downcasting {
     public static void main (String args[]) {
         // 1. Primitive Typecasting
