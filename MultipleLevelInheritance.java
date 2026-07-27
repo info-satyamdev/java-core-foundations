@@ -20,8 +20,7 @@ class SuperCalc extends AdvanceCalc{
         return Math.pow(n1, n2);
     }
 }
-
-public class MultipleInheritance {
+public class MultipleLevelInheritance {
     public static void main(String args[]){
     int a = 15;
     int b = 2;    
