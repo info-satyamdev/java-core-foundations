@@ -1,5 +1,7 @@
 interface Mobile{
+    // keywords in interface are always final and static
     int weight = 200;
+    // methods in interface are always abstract and public so if a class implements an interface the methods needs to be implemented
     void camera();
     void call();
 }
